@@ -1,12 +1,6 @@
 # Quantum
 A 24-bit Vim color scheme based on Google's [Material Design palette](https://material.io/guidelines/style/color.html#).
 
-##### Quantum
-![quantum](http://i.imgur.com/NDZRnpa.png)
-
-##### Quantum Black
-![quantum-black](http://i.imgur.com/1hNWyMB.png)
-
 ### Installation
 **NOTE:** This color scheme requires a terminal that supports true colors!
 
