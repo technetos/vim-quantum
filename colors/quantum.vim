@@ -25,9 +25,11 @@ let s:green     = '#87bb7c'
 let s:yellow    = '#d5b875'
 let s:blue      = '#70ace5'
 let s:purple    = '#a48add'
-let s:cyan      = '#69c5ce'
+"let s:cyan      = '#69c5ce'
+let s:cyan      = '#7fd8d8'
 let s:orange    = '#d7956e'
 let s:indigo    = '#7681de'
+let s:blue2   = '#01b2bf'
 
 function! s:HL(group, fg, bg, attr)
     let l:attr = a:attr
@@ -97,7 +99,7 @@ call s:HL('Identifier',                     s:red,      '',         'none')
 call s:HL('Function',                       s:blue,     '',         '')
 call s:HL('Statement',                      s:purple,   '',         'none')
 call s:HL('Operator',                       s:cyan,     '',         '')
-call s:HL('PreProc',                        s:cyan,     '',         '')
+call s:HL('PreProc',                        s:blue2,    '',         '')
 call s:HL('Include',                        s:blue,     '',         '')
 call s:HL('Define',                         s:purple,   '',         'none')
 call s:HL('Macro',                          s:purple,   '',         '')
